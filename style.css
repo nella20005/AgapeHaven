@@ -42,6 +42,11 @@
                             .nav-link {
                                 font-size: 1.1em !important;
                             }
+                            .carousel-item.active,
+                            .carousel-item-next,
+                            .carousel-item-prev {
+                                    display: block;
+                                }
                             /*---Firefox Bug Fix --*/
                             
                             .jumbotron {
